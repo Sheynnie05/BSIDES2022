@@ -1,2 +1,2 @@
 # BSIDES2022
-Resources package for BSIDES2022 attendees
+Cloudformation resources of the AWS Services implemented in the demo for BSIDES2022 attendees
