@@ -1,0 +1,7 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Configures Inspector for a resources with a specific tag key value pair
+Resources:
+    InspectorClassic:
+        Type: AWS::Inspector::AssessmentTarget
+        Properties: 
+            AssessmentTargetName: InspectorAssessment

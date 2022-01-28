@@ -1,0 +1,5 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Cloudformation to enable AWS Security Hub
+Resources:
+  SecurityHub:
+    Type: AWS::SecurityHub::Hub

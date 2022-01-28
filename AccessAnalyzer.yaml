@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Cloudformation to enable AWS IAM Access Analyzer
+Resources:
+  AccessAnalyzer:
+    Type: AWS::AccessAnalyzer::Analyzer
+    Properties: 
+        AnalyzerName: AccessAnalyzer
+        Type: ACCOUNT
+
+
+
